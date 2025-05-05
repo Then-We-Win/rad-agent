@@ -3,7 +3,7 @@ console.log('XXX src/boot/libs.js');
 
 import { boot } from 'quasar/wrappers'
 import { reactive } from 'vue'
-import ToolSystem from 'rad-console/vue/tools'
+import ToolSystem from 'rad-agent/vue/tools'
 import appCommands from '../commands/app'
 import devCommands from '../commands/dev'
 import replicateCommands from '../commands/replicate'
@@ -11,7 +11,7 @@ import playaiCommands from '../commands/playai'
 import minimaxCommands from '../commands/minimax'
 
 // Import the Vue integration directly
-import { createVueToolSystem } from 'rad-console/vue/integration'
+import { createVueToolSystem } from 'rad-agent/vue/integration'
 import defaultSettings from 'src/settings'
 
 // Create a store for the Vue integration instance
