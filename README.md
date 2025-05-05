@@ -49,7 +49,7 @@ Also keep in mind you can use things like `v-if` to optionally add the console o
 
 We made a fully working Quasar project. Check it out for all kinds of use cases.
 
-## Install the dmeo
+## Install the demo
 
 Just a standard install
 ```bash
