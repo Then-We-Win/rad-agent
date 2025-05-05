@@ -1,6 +1,6 @@
 {
   "name": "rad-agent",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Rapid Application Development (RAD) system",
   "main": "index.js",
   "license": "Apache-2.0",
