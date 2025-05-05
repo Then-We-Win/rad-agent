@@ -1,5 +1,5 @@
 # RAD Agent
-Rad agent is an agentic Rapid Application Development system designed to help you make software quicker and without legacy ideas or tools.
+Rad agent is an agentic Rapid Application Development system designed to help you make software faster without legacy ideas or tools.
 
 The main idea is you don't need an IDE to develop anymore; you just stub out an app with RAD agent, and inject your agentic feelers however you'd like.
 
