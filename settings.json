@@ -1,0 +1,86 @@
+{
+  "sdk": {
+    "settings": {
+      "name": "rad-agent",
+      "version": "1.0.0",
+      "local": {
+        "key": "settings",
+        "save": true,
+        "load": true,
+        "storage": "localStorage"
+      },
+      "remote": {
+        "key": "apps",
+        "save": true,
+        "load": true,
+        "sync": {
+          "enabled": false,
+          "interval": 60000
+        }
+      },
+      "requests": {
+        "timeout": 30000,
+        "retries": {
+          "max": 3,
+          "backoff": 1000,
+          "codes": [408, 429, 500, 502, 503, 504]
+        },
+        "headers": {
+          "X-App-Version": "1.0.0"
+        }
+      },
+      "metadata": {
+        "cdn": {
+          "baseUrl": "https://cdn.rad-agent.com/metadata",
+          "cache": {
+            "enabled": true,
+            "ttl": 300
+          }
+        },
+        "preloadTracks": []
+      },
+      "embedding": {
+        "iframe": {
+          "width": "100%",
+          "height": "100%",
+          "allowFullscreen": true,
+          "allowedDomains": ["*"]
+        }
+      },
+      "debug": {
+        "enabled": false,
+        "logLevel": "error",
+        "traceRequests": false
+      },
+      "environment": {
+        "mode": "development",
+        "features": {
+          "experimentalApi": false
+        }
+      },
+      "auth": {
+        "defaults": {
+          "username": "",
+          "password": ""
+        },
+        "token": {
+          "storage": "localStorage",
+          "autoRefresh": true,
+          "refreshThreshold": 300,
+          "sessionTimeout": 3600
+        },
+        "otp": {
+          "defaultExpiration": 600,
+          "length": 32,
+          "allowUserCreation": true
+        }
+      }
+    },
+    "app": {
+      "key": "app.v1.demo",
+      "id": "5c1ccad2-789c-43fc-af31-e119eef5b5fe",
+      "endpoint": "https://api.rad-agent.com/",
+      "resources": {}
+    }
+  }
+}

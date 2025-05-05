@@ -1,0 +1,37 @@
+{
+  "name": "rad-agent",
+  "version": "0.0.2",
+  "description": "A Rapid Application Development (RAD) system",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "author": "Nick Steele <njsteele@gmail.com>",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Then-We-Win/rad-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Then-We-Win/rad-agent/issues"
+  },
+  "homepage": "https://rad-agent.com",
+  "keywords": [
+    "agent",
+    "ai",
+    "agentic",
+    "vue",
+    "quasar",
+    "directus",
+    "orchestration",
+    "automation",
+    "tww"
+  ],
+  "dependencies": {
+    "@directus/sdk": "^18.0.3",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.1"
+  }
+}
