@@ -3,7 +3,7 @@ This is a Quasar 2 / Vue 3 example of how to get rad-console running in your app
 
 ## Installing rad-console into your Quasar app
 
-To use rad-console in Quasar, add `src/boot/rad-console.js` and then add a reference to that to `quasar.config.js` as that's it, just configure the console in the boot file.
+To use rad-console in Quasar, add `src/boot/rad-console.js` and then add a reference to that to `quasar.config.js` and that's it, just configure the console in the boot file.
 
 ## Step 1 - Add rad-console
 

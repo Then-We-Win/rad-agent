@@ -16,7 +16,7 @@ npm install rad-agent
 
 ## Quasar
 
-To use rad-agent in Quasar, add `src/boot/rad-agent.js` and then add a reference to that to `quasar.config.js` as that's it, just configure the console in the boot file.
+To use rad-agent in Quasar, add `src/boot/rad-agent.js` and then add a reference to that to `quasar.config.js` and that's it, just configure the console in the boot file.
 
 **Step 1 - Add rad-agent**
 
